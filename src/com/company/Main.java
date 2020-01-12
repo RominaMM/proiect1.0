@@ -1,33 +1,49 @@
 package com.company;
 
 public class Main {
-
     public static void main(String[] args) {
-        // write your code here
-        System.out.println("Exercitiu 1: Hello");
-        System.out.println("Romina");
+        System.out.println("Exercitiu 1: Hello \nRomina");
 
-        int x=2+3;
-        System.out.println("Exercitiu 2: 2+3=" + x);
 
-        int y=10/2;
-        System.out.println("Exercitiu 3: 10/2=" + y);
+        // Exercitiu 2:
+        float x = 10f;
+        float y = 3f;
+        float sum = x + y;
+        System.out.println("Exercitiu 2: " + sum);
 
-        System.out.println("Exercitiu 4:");
-        int a= -5+8*6;
-        System.out.println("-5+8*6=" + a);
-        int b= (55+9)%9;
-        System.out.println("(55+9)%9=" +b);
-        int c=  20+ -3*5/8;
-        System.out.println( "20+ -3*5/8=" + c);
-        int d= 5+15 / 3*2 - 8 % 3;
-        System.out.println("5+15 / 3*2 - 8 % 3=" + d);
+        // Exercitiu 3:
+        float div = x / y;
+
+        System.out.println("Exercitiu 3: " + div);
+
+        //Exercitiu 4:
+        int a = -5 + 8 * 6;
+        System.out.println("Exercitiu 4:  \na. " + a);
+
+         int b = 55+9;
+         float d = 0.09f ;
+         double e = b*d ;
+         System.out.println("b. " + e );
+
+         int k = 20;
+         float j = -3*5;
+         int m = 8;
+         float r = k + j / m;
+        System.out.println("c. " + r );
+
+        int v = 5;
+        float w = 15/3f*2;
+        int p = 8;
+        float u= 0.03f;
+        float t = v + w - p * u;
+        System.out.println("d. " + t );
 
 
 
 
 
     }
+
 
 
 

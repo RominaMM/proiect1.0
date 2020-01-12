@@ -13,6 +13,9 @@ public class Main {
 
         float z=divide(3.5f, 4);
         System.out.println(z);
+
+        int w=multipl(6, 5);
+        System.out.println(w);
     }
 
     public static int sum(int first, int second) {
@@ -27,6 +30,10 @@ public class Main {
     public static float divide(float first, float second){
         float divide= first/second;
         return divide;
+    }
+    public static int multipl(int first, int second){
+        int multipl = first * second;
+        return multipl;
     }
 }
 

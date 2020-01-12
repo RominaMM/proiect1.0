@@ -16,6 +16,12 @@ public class Main {
 
         int w=multipl(6, 5);
         System.out.println(w);
+
+        printJava();
+
+        System.out.println(calcul(2,3,4));
+
+
     }
 
     public static int sum(int first, int second) {
@@ -35,5 +41,23 @@ public class Main {
         int multipl = first * second;
         return multipl;
     }
+
+    public static void printJava(){
+        System.out.println("   J     a       v     v   a");
+        System.out.println("   J    a  a      v   v   a  a");
+        System.out.println("J  J   aaaaaa      v v   aaaaaa");
+        System.out.println(" JJ   a      a      v   a      a");
+
+    }
+
+    public static int calcul(int a, int b, int c) {
+        int  k= a + b + c;
+        int  calcul = k / 3;
+        return calcul;
+    }
+
+
+
+
 }
 

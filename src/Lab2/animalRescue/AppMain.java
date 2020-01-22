@@ -3,22 +3,55 @@ package Lab2.animalRescue;
 public class AppMain {
     public static void main(String[] args) {
         Animal cat = new Animal();
-        cat.name = "Miau";
-        cat.age = 7;
-        cat.healthLevel = 9;
-        cat.hungerLevel = 8;
-        cat.preferedFood = "Purina";
-        cat.recreationActivity = "Playing with a ball of wool";
 
+        cat.setName("Miau");
+        System.out.println(cat.getName());
+        cat.setAge(7);
+        System.out.println(cat.getAge());
+        cat.sethealthLevel(9);
+        System.out.println(cat.gethealthLevel());
+        cat.sethungerLevel(8);
+        System.out.println(cat.gethungerLevel());
+        cat.setpreferedFood("Purina");
+        System.out.println(cat.getPreferedFood());
+        cat.setrecreationActivity("Playing with a ball of wool");
+        System.out.println(cat.getRecreationActivity());
+////
         AnimalRescuer romina = new AnimalRescuer();
-        romina.name = "Romina M";
-        romina.amountOfMoney = 500;
 
+        romina.setname("Romina");
+        System.out.println(romina.getname());
+        romina.setAmountOfMoney(500);
+        System.out.println(romina.getAmountOfMoney());
+
+////
         AnimalFood catFood = new AnimalFood();
-        catFood.name = "Purina for cats";
-        catFood.price = 10;
-        catFood.quantity = 2;
-        catFood.inStock = true;
+        System.out.println(catFood.getname());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         RecreationActivity recreation = new RecreationActivity();
         recreation.name = "Sitting at the window";
@@ -27,20 +60,11 @@ public class AppMain {
         doctorVet.name = " Dr. V.";
         doctorVet.specialisation = "Feline Neurology";
 
-        System.out.println(cat.name);
-        System.out.println(cat.age);
-        System.out.println(cat.healthLevel);
-        System.out.println(cat.hungerLevel);
-        System.out.println(cat.preferedFood);
-        System.out.println(cat.recreationActivity);
 
-        System.out.println(romina.name);
-        System.out.println(romina.amountOfMoney);
 
-        System.out.println(catFood.name);
-        System.out.println(catFood.price);
-        System.out.println(catFood.quantity);
-        System.out.println(catFood.inStock);
+
+
+
 
         System.out.println(recreation.name);
 

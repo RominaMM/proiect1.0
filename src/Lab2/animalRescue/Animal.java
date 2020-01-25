@@ -7,44 +7,52 @@ public class Animal {
     private int hungerLevel;
     private String preferedFood;
     private String recreationActivity;
-//
-    public void setName(String newName){
-        name = newName;
+
+    public Animal() {
+    }
+
+    //
+    public void setName(String Name){
+        name = Name;
     }
     public String getName(){
      return name;
     }
 //
-    public void setAge( float  newAge){
-        age = newAge;
+    public void setAge( float  Age){
+        age = Age;
     }
     public float getAge(){
         return age;
     }
 //
-    public void sethealthLevel(int newhealthLevel){
-        healthLevel = newhealthLevel;
+    public void setHealthLevel(int HealthLevel){
+        healthLevel = HealthLevel;
     }
-    public int gethealthLevel(){
+    public int getHealthLevel(){
         return healthLevel;
     }
 //
-    public void sethungerLevel(int newhungerLevel){
-        hungerLevel = newhungerLevel;
-    }
-    public int gethungerLevel(){
-        return hungerLevel;
-    }
-//
-    public void setpreferedFood(String newpreferedFood){
-        preferedFood = newpreferedFood;
-    }
-    public String getPreferedFood(){
-        return preferedFood;
+    public void  setHungerLevel(int HungerLevel) {
+        hungerLevel = HungerLevel;
     }
 
-    public void setrecreationActivity(String newrecreationActivity){
-        recreationActivity = newrecreationActivity;
+        public int getHungerLevel () {
+            return hungerLevel;
+        }
+
+//
+    public void setPreferedFood(String PreferedFood) {
+        preferedFood = PreferedFood;
+        }
+        public String getPreferedFood(){
+            return preferedFood;
+        }
+
+ //
+
+    public void setRecreationActivity(String RecreationActivity){
+        recreationActivity = RecreationActivity;
     }
     public String getRecreationActivity(){
         return recreationActivity;

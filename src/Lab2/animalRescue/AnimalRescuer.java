@@ -4,11 +4,11 @@ public class AnimalRescuer {
     private String name;
     private float amountOfMoney;
 
-    public void setname(String newname){
-        this.name = newname;
+    public void setName(String Name){
+        name = Name;
     }
-    public String getname(){
-        return this.name;
+    public String getName(){
+        return name;
     }
 ////
     public void setAmountOfMoney(float newamountOfMoney){

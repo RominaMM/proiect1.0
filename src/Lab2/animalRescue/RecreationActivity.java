@@ -1,6 +1,12 @@
 package Lab2.animalRescue;
 
 public class RecreationActivity {
-    String name;
+    private String name;
 
+    public void setName(String Name){
+        name= Name;
+    }
+    public String getName(){
+        return name;
+    }
 }

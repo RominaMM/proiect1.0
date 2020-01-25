@@ -6,59 +6,52 @@ public class AppMain {
 
         cat.setName("Miau");
         System.out.println(cat.getName());
+
         cat.setAge(7);
         System.out.println(cat.getAge());
-        cat.sethealthLevel(9);
-        System.out.println(cat.gethealthLevel());
-        cat.sethungerLevel(8);
-        System.out.println(cat.gethungerLevel());
-        cat.setpreferedFood("Purina");
+
+        cat.setHealthLevel(9);
+        System.out.println(cat.getHealthLevel());
+
+        cat.setHungerLevel(8);
+        System.out.println(cat.getHungerLevel());
+
+        cat.setPreferedFood("Purina");
         System.out.println(cat.getPreferedFood());
-        cat.setrecreationActivity("Playing with a ball of wool");
+
+        cat.setRecreationActivity("Playing with a ball of wool");
         System.out.println(cat.getRecreationActivity());
 ////
         AnimalRescuer romina = new AnimalRescuer();
 
-        romina.setname("Romina");
-        System.out.println(romina.getname());
+        romina.setName("Romina");
+        System.out.println(romina.getName());
+
         romina.setAmountOfMoney(500);
         System.out.println(romina.getAmountOfMoney());
 
 ////
         AnimalFood catFood = new AnimalFood();
-        System.out.println(catFood.getname());
 
+        catFood.setNameFood("Purina, Kitty Kitty, Whiskas");
+        System.out.println(catFood.getNameFood());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////
 
         RecreationActivity recreation = new RecreationActivity();
-        recreation.name = "Sitting at the window";
+
+        recreation.setName("Sitting at the window");
+        System.out.println(recreation.getName());
+
+////
 
         Veterinarian doctorVet = new Veterinarian();
-        doctorVet.name = " Dr. V.";
-        doctorVet.specialisation = "Feline Neurology";
+
+        doctorVet.setName(" Dr. V.");
+        System.out.println(doctorVet.getName());
+
+        doctorVet.setSpecialisation("Feline Neurology");
+        System.out.println(doctorVet.getSpecialisation());
 
 
 
@@ -66,10 +59,9 @@ public class AppMain {
 
 
 
-        System.out.println(recreation.name);
 
-        System.out.println(doctorVet.name);
-        System.out.println(doctorVet.specialisation);
+
+
 
     }
 }

@@ -3,21 +3,18 @@ package Lab2.animalRescue;
 import javax.naming.Name;
 
 public class AnimalFood {
-    private String name;
+
+    private String nameFood;
     private float price;
     private int quantity;
     private boolean inStock;
 
-    public void setName(String newNamecatFood){
-        name = newNamecatFood;
+    public void setNameFood(String NameFood){
+        nameFood = NameFood;
     }
-    public String getname(){
-        return name;
+    public String getNameFood(){
+        return nameFood;
     }
-
-
-
-
 
 
 

@@ -33,26 +33,61 @@ public class Main {
         System.out.println("The highest number is: " + Logic.exercitiul11(20, 9, 22));
 
 
-///// Lab 4
+///// Lab 4: CURS
         op.printEvenNumbers(0);
 
-////Tema Lab4:
-        //Ex 1
+////Tema Lab4: FOR
+
         op.printToHundredEx1(70);
-        //Ex 2
+
         op.printToHundredEx2(-1);
-        //Ex 3
+
         op.printEx3(25, 32);
-        //Ex 4
+
         op.printEx4(1, 14);
-        //Ex 5
+
         op.printEx5(0);
+
         op.printEx6(0);
 
         System.out.println("Exercitiu 7: "+ op.exercitiu7(0) );
+
         System.out.println("Exercitiu 8: " + op.exercitiu8(0, 100) );
 
         op.exercitiu9();
+
+
+        ///TEMA LAB 4: WHILE
+
+
+        op.exWhile1( 90);
+
+
+        op.exWhile2(-80);
+
+
+        op.exWhile3(5,10);
+
+
+        op.exWhile4(5, 10);
+
+
+        op.exWhile5();
+
+
+        op.exWhile6();
+
+
+        op.exWhile7();
+
+
+        System.out.println(op.exWhile8(1,30));
+
+
+        op.exWhile9();
+
+
+        op.exWhile10();
 
 
 

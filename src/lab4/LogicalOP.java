@@ -210,6 +210,160 @@ public class LogicalOP {
     }
     }
 
+ /// TEMA LAB4 : WHILE
+ public void exWhile1(int x) {
+
+     do {
+         System.out.println("Ex 1: " + x);
+         x++;
+     }
+     while (x <= 100);
+ }
+
+    public void exWhile2(int x) {
+        do {
+            System.out.println("Ex 2: " + x);
+            x--;
+        }
+        while (x >= -100);
+    }
+
+    public void exWhile3(int x, int y) {
+        do {
+            System.out.println("Ex 3: " + x);
+            x++;
+        }
+        while (x < y);
+        do {
+            System.out.println("Ex 3: " + y);
+            y++;
+        }
+        while (y < x);
+    }
+
+    public void exWhile4(int x, int y) {
+        while (x < y) {
+            System.out.println("Ex 4: " + x);
+            x++;
+        }
+
+        while (y <= x) {
+            System.out.println("Ex 4: " + y + " ");
+            y++;
+        }
+    }
+
+    public void exWhile5() {
+        int i = 0;
+        do {
+
+            i++;
+            if (i % 2 == 0) {
+                System.out.println("Ex 5: " + i + " ");
+            }
+        }
+        while (i <= 100);
+    }
+
+    public void exWhile6() {
+        int i = 0;
+        do {
+            i++;
+            if (i % 2 != 0) {
+                System.out.println("Ex 6: " + i + " ");
+            }
+        }
+        while (i <= 100);
+    }
+
+    public void exWhile7() {
+        int x = 111;
+        int sum = 0;
+        int count = 0;
+        int intCount = 0;
+        while (x <= 8899) {
+            sum = sum + x;
+            x++;
+            count++;
+        }
+        intCount = sum / count;
+
+        System.out.println("Ex 7: " + sum + " ");
+        System.out.println("\n" + intCount + " ");
+
+    }
+    public float exWhile8(int x, int y){
+        int aux;
+        float sum = 0;
+        int count = 0;
+        if(y<x) {
+            aux = y;
+            y=x;
+            x=aux;
+        }
+
+        while(x<=y){
+            if(x % 7 == 0){
+                sum = sum + x;
+                count++;
+            }
+            x++;
+        }
+        return sum / count;
+    }
+
+    public void exWhile9() {
+        int x = 1;
+        int y = 0;
+        int z = 1;
+        while (x <= 20) {
+            System.out.println("Ex 9: " + y + " ");
+            int sum = y + z;
+            y = z;
+            z = sum;
+            x++;
+        }
+    }
+
+    public void exWhile10() {
+        int n = 1;
+        do {
+
+
+            if (n % 3 == 0 && n % 5 == 0 && n % 7 == 0) {
+                System.out.println("Ex 10: \n " );
+                System.out.println(" " + "CozaLozaWoza"  );
+            }
+
+            else if (n % 3 == 0 && n % 5 == 0) {
+                System.out.println(" " + "CozaLoza" );
+            }
+
+            else if (n % 5 == 0 && n % 7 == 0) {
+                System.out.println(" " + "wozaLoza" );
+            }
+
+            else if (n % 3 == 0 && n % 7 == 0) {
+                System.out.println(" " + "cozaWoza" );
+            }
+
+            else if (n % 3 == 0) {
+                System.out.println(" " + "coza"  );
+            }
+
+            else if (n % 5 == 0) {
+                System.out.println(" " + "loza" );
+            }
+
+            else if (n % 7 == 0) {
+                System.out.println(" " + "woza" );
+            } else {
+                System.out.println(" " + n );
+            }
+            n++;
+        } while (n <= 110);
+    }
+
 
 
 
